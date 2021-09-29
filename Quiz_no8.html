@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        body{
+                    text-align: center;
+                    background-color: yellow;
+                    font-family: 'Poppins', sans-serif;
+                    color: green;
+                }
+                bodyimg{
+                    border: 10px double yellowgreen;
+                }
+                a{
+        text-decoration: none;
+        color: limegreen;
+        }
+       button{
+    background-color: yellow;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+       }
+       
+        
+        * {
+        
+        margin: 0;
+        
+        padding: 0;
+        
+        box-sizing: border-box;
+        
+        }
+        
+         
+        
+        nav {
+        
+        background-color: yellowgreen;
+        
+        color: green;
+        
+        height: 100px;
+        
+        font-family: 'Poppins', sans-serif;
+        
+        position: relative;
+        
+        }
+        
+         
+        
+        nav > div > ul {
+        
+        align-items: center;
+        
+        height: 100px;
+        
+        position: absolute;
+        
+        right: 100px;
+        
+        top: 0;
+        
+        display: grid;
+        
+        grid-template-columns: 100px 100px 100px 100px;
+        
+        grid-gap: 20px;
+        
+        list-style-type: none;
+        
+        }
+        
+         
+        
+        nav > div > ul > a > li {
+        
+        color: brown;
+        
+        text-decoration: none;
+        
+        text-align: center;
+        
+        }
+        
+         
+        
+        nav > .logo {
+        
+        position: absolute;
+        
+        top: 50%;
+        
+        left: -50px;
+        
+        width: 230px;
+        
+        color: brown;
+        
+        transform: translateY(-50%);
+        
+        }
+        
+         
+        
+        nav > .logo > span {
+        
+        position: absolute;
+        left: 160px;
+        right: 0;
+        
+        top: 50%;
+        
+        transform: translateY(-50%);
+        
+        }
+        
+         
+        
+        nav > div > ul > a {
+        
+        width: calc(auto + 20px);
+        
+        border: 1px solid grey;
+        
+        padding: 10px;
+        
+        border-radius: 20px;
+        
+        text-decoration: none;
+        
+        }
+        
+         
+        
+        nav > div > ul > a:hover {
+        
+        width: calc(auto + 20px);
+        
+        border: 1px solid #007bff;
+        
+        padding: 10px;
+        
+        border-radius: 20px;
+        
+        text-decoration: none;
+        
+        }
+        
+         
+        
+        nav > div {
+        
+        display: inline-block;
+        
+        }
+        
+        </style>
+        
+        <nav>
+        
+        <div class="logo"><img src="./static/sandwich.png" alt="" width='35%'><span>Sandwiches.ie</span></div>
+        
+        <div>   
+        
+        <ul>
+        
+        <a href="/index.html"><li>About Me</li></a>
+        
+        <a href="/listofbooks.html"><li>Favorite Books</li></a>
+        
+        <a href="/QUIZABOUTASANDWICHES.html"><li>Quizzes</li></a>
+        
+        <a href="/SEAFOODRAMENRECIPE.html"><li>Recipe!</li></a>
+        
+        </ul>
+        
+        </div>
+        
+        
+        </nav>
+        <h4>Nothing else to put here, but that I want more sandwiches, and that you are near the end in two more questions.</h4>
+        <p>John Young, the pilot of Gemini 3, was reprimanded for smuggling what kind of sandwich onto the spacecraft?</p>
+        <form>
+            <label for="option1">
+            <input type="radio" id="option1" name="answer" value="1"> Nutella sandwich (My favorite)
+            </label>
+            <br>
+            <label for="option2">
+                <input type="radio" id="option2" name="answer" value="2"> Peanut butter sandwich (Ummm no thanks on this one)
+                </label>
+                <br>
+            <label for="option3">
+                <input type="radio" id="option3" name="answer" value="3"> Corned beef (Huh, wonder how it tastes)
+                </label>
+                <br>
+            <label for="option4">
+                <input type="radio" id="option4" name="answer" value="4"> A regular cheesey, toasted sandwich (Snore!)
+                </label>
+                <br><br>
+                 <!-- <label for="submit"> -->
+                    <button type="submit"><a href="./Quiz_no9.html">NEXT!</a></button>
+                <!-- </label> -->
+        </form>
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>

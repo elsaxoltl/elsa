@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        body{
+                    text-align: center;
+                    background-color: yellow;
+                    font-family: 'Poppins', sans-serif;
+                    color: green;
+                }
+                bodyimg{
+                    border: 10px double yellowgreen;
+                }
+                button{
+    background-color: yellow;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+       }
+       select{
+    background-color:  yellow;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: darkgreen;
+       }
+        
+        * {
+        
+        margin: 0;
+        
+        padding: 0;
+        
+        box-sizing: border-box;
+        
+        }
+        
+         
+        
+        nav {
+        
+        background-color: yellowgreen;
+        
+        color: green;
+        
+        height: 100px;
+        
+        font-family: 'Poppins', sans-serif;
+        
+        position: relative;
+        
+        }
+        
+         
+        
+        nav > div > ul {
+        
+        align-items: center;
+        
+        height: 100px;
+        
+        position: absolute;
+        
+        right: 100px;
+        
+        top: 0;
+        
+        display: grid;
+        
+        grid-template-columns: 100px 100px 100px 100px;
+        
+        grid-gap: 20px;
+        
+        list-style-type: none;
+        
+        }
+        
+         
+        
+        nav > div > ul > a > li {
+        
+        color: brown;
+        
+        text-decoration: none;
+        
+        text-align: center;
+        
+        }
+        
+         
+        
+        nav > .logo {
+        
+        position: absolute;
+        
+        top: 50%;
+        
+        left: -50px;
+        
+        width: 230px;
+        
+        color: brown;
+        
+        transform: translateY(-50%);
+        
+        }
+        
+         
+        
+        nav > .logo > span {
+        
+        position: absolute;
+        left: 160px;
+        right: 0;
+        
+        top: 50%;
+        
+        transform: translateY(-50%);
+        
+        }
+        
+         
+        
+        nav > div > ul > a {
+        
+        width: calc(auto + 20px);
+        
+        border: 1px solid grey;
+        
+        padding: 10px;
+        
+        border-radius: 20px;
+        
+        text-decoration: none;
+        
+        }
+        
+         
+        
+        nav > div > ul > a:hover {
+        
+        width: calc(auto + 20px);
+        
+        border: 1px solid #007bff;
+        
+        padding: 10px;
+        
+        border-radius: 20px;
+        
+        text-decoration: none;
+        
+        }
+        
+         
+        
+        nav > div {
+        
+        display: inline-block;
+        
+        }
+        a{
+            text-decoration: none;
+            color: green;
+        }
+        select{
+
+            font-family: 'Dancing Script', cursive;
+        }
+        </style>
+        </head>
+        <body>
+        <nav>
+        <div class="logo"><img src="/static/sandwich.png" alt="GIVEMEMORESANDWICHESAAAAAAAA" width='35%'><span>Sandwiches.ie</span></div>
+        
+        <div>   
+        
+        <ul>
+        
+        <a href="/index.html"><li>About Me</li></a>
+        
+        <a href="/listofbooks.html"><li>Favorite Books</li></a>
+        
+        <a href="/QUIZINDEX.html"><li>Quizzes</li></a>
+        
+        <a href="/SEAFOODRAMENRECIPE.html"><li>Recipe!</li></a>
+        
+        </ul>
+        
+        </div>
+        
+        
+        </nav>
+    <h1>Welcome!</h1>
+    <h2>Let's get you started, shall we?<h2>
+    <h2>Enter your first name, last name, username and password!</h2>
+    <form>
+        <label for="firstname"> FIRST NAME : 
+            <div class="sandwiches"> <br>
+                <input type="text" id="firstname" name="firstname" size="50" required>
+            </div>  
+        </br>
+        </label>
+        <label for="lastname"> LAST NAME : 
+            <div class="sandwiches"> <br>
+                <input type="text" id="lastname" name="lastname" size="50" required>
+            </div>  
+        </br>
+        <label for="username"> USERNAME : 
+            <div class="sandwiches">
+            <input type="text" id="username" name="username" size="50"required>
+            </div>
+        </label> <br>
+        <label for="password"> PASSWORD : 
+            <div class="sandwiches">
+            <input type="password" id="password" name="password" size="50"required>
+            </div>
+        </br>
+        </label> 
+            <label for="moresandwichesplease">
+                <p>Ok, so tell me how good this website is so far? (This part is optional, so you can skip this if you want)</p>
+                <textarea name="moresandwichesplease" id="" cols="30" rows="10"></textarea>
+            </label>
+            <br>
+            <p>City name? (only four choices or you can skip)</p>
+            <select name="City" id="city">
+                <option value="option1">Ahmedabad</option>
+                <option value="option2">Bengaluru</option>
+                 <option value="option3">California</option>
+                <option value="option4">Dublin</option>
+            </select>
+            
+            <br>
+            <br>
+            <br>
+            <button type="submit"><a href="./REGISTRATIONSUCCES.html">Complete!</a></button>
+            </br>
+</body>
+</html>
