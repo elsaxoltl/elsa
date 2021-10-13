@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <title>Sandwiches Home Page</title>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body{
             text-align: center;
@@ -16,12 +16,7 @@ body{
         bodyimg{
             border: 10px double yellowgreen;
         }
-        button{
-    background-color: yellow;
-    border-radius: 50px;
-    padding: 20px;
-    font-size: 20px;
-       }
+
 * {
 
 margin: 0;
@@ -156,96 +151,42 @@ display: inline-block;
 
 }
 
-.wavy-text-animation {
-
-font-family: consolas;
-
-}
-
- 
-
-.wavy-text-animation {
-
-position: relative;
-
--webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
-
-}
-
- 
-
-.wavy-text-animation span {
-
-position: relative;
-
-display: inline-block;
-
-font-size: 2em;
-
-color: #fff;
-
-text-transform: uppercase;
-
-animation: text-animate-wavy 1s ease-in-out infinite;
-
-animation-delay: calc(0.1s * var(--i));
-
-}
-
- 
-
-@keyframes text-animate-wavy {
-
-0% {
-
-transform: translateY(0px);
-
-}
-
-20% {
-
-transform: translateY(-20px);
-
-}
-
-40%, 100% {
-
-transform: translateY(0px);
-
-}
-}
-    </style>
+</style>
 </head>
 <body>
+<nav>
+<div class="logo"><img src="./static/sandwich.png" alt="GIVEMEMORESANDWICHESAAAAAAAA" width='35%'><span>Sandwiches.ie</span></div>
+
+<div>   
+
+<ul>
+
+<a href="./home.html"><li>About Me</li></a> 
+
+<a href="./listofbooks.html"><li>Favorite Books</li></a>
+
+<a href="./QUIZINDEX.html"><li>Quizzes</li></a>
+
+<a href="./SEAFOODRAMENRECIPE.html"><li>Recipe!</li></a>
+
+</ul>
+
+</div>
 
 
-<h1 id="heading"></h1>
+</nav>
+    <h1> About The Creator</h1>
+    <div class="bodyimg">
+    <img src="./static/THISISMEEATINGSANDWICHES.jpg" alt="THISISMEEATINGSANDWICHES" width="50%" height="50%">
+    <p>I am ten years old and I love to read, write, draw and typically play video games (like Minecraft and ROBLOX).</p>
+    <p>My first book, <i>The Hawk's Jewel</i> is published on lulu.com. Underneath is a picture</p>
+    <img src="./static/SANDWICHES.jpg" alt="ILUVSANDWICHES">
+    <br>
+    <a href="https://www.lulu.com/en/us/shop/elsa-khairil/the-hawks-jewel/paperback/product-469rwk.html?page=1&pageSize=4">PURCHASE A BOOK HERE</a>
+    <p>Underneath is a picture of my second book. I haven't published it, but soon it will be finished.</p>
+    <img src="./static/MORESANDWICHES.jpg" alt="MORESANDWICHESPLZ">
+    </br>
+    </div>
 
-<script>
-
-var i = 0;
-
-var txt = 'Welcome to my website, full of sandwiches, quizzes, recipes and was originally created by @elsaxoltl, but I prefer Elsa. I love food, do you? Explore this website to your hearts content! (Although, there is a limit... Come on now, click on something.. Hurry up... CLICK!!!!)';
-
-var speed = 50;
-
-function typeWriter() {
-
-if (i < txt.length) {
-
-document.getElementById("heading").innerHTML += txt.charAt(i);
-
-i++;
-
-setTimeout(typeWriter, speed);
-
-}
-
-}
-
-document.onload = typeWriter();
-
-</script>
-<button type="submit"><a href="./home.html">TO THE WEBSITE!</a></button>
 </body>
 </html>
